@@ -1,6 +1,6 @@
 [![bitHound Score](https://www.bithound.io/github/rajeshwarpatlolla/ionic-datepicker/badges/score.svg)](https://www.bithound.io/github/rajeshwarpatlolla/ionic-datepicker)
 
-##Introduction:
+## Introduction:
 
 This is an `ionic-datepicker` bower component, which can be used in any Ionic framework's application. No additional plugins required for this component.
 This plugin is completely open source. Please rate this plugin @ [Ionic Market](http://market.ionic.io/plugins/ionicdatepicker)
@@ -11,14 +11,14 @@ From version 1.0.0, this component has got so many new features and the way you 
 
 [View Demo](http://rajeshwarpatlolla.github.io/DatePickerForIonicFramework/demo/ "Demo")
 
-##Prerequisites.
+## Prerequisites.
 
 * node.js, npm
 * ionic
 * bower
 * gulp
 
-##How to use:
+## How to use:
 
 1) In your project folder, please install this plugin using bower
 
@@ -214,6 +214,22 @@ b) For `Today` button the class name is `button_today`
 
 c) For `Close` button the class name is `button_close`
 
+## How to build
+
+Install node 10.19.0 ([gulp-sass will fail for more recent version of node](https://github.com/nodejs/node-gyp/issues/1763))
+
+```
+node -v
+v10.19.0
+```
+
+Install and build
+
+```
+npm install
+npx gulp build
+```
+
 ##Versions:
 
 ### 1) v0.1.0
@@ -358,10 +374,10 @@ CSS changes for popup, so that all the dates of all the months fits in the speci
 Version modified to match with the current release version.
 
 
-##License:
+## License:
 [MIT](https://github.com/rajeshwarpatlolla/ionic-datepicker/blob/master/LICENSE.MD "MIT")
 
-##Contact:
+## Contact:
 Gmail : rajeshwar.patlolla@gmail.com
 
 Github : https://github.com/rajeshwarpatlolla
